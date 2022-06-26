@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Threejs</title>
+  <!-- <script src="http://www.yanhuangxueyuan.com/threejs/build/three.js"></script> -->
+  <!-- <script src="http://www.yanhuangxueyuan.com/threejs/examples/js/controls/OrbitControls.js"></script> -->
+  <style>
+    /* 文字提示框样式 */
+    #text {
+      display: none;
+      box-shadow: 0 0 5px rgb(138, 138, 138);
+      padding: 10px;
+      position: absolute;
+      font-weight: bold;
+      background: rgba(255, 255, 255, 0.747);
+      border-radius: 5px;
+			max-width: 500px;
+    }
+
+    #menu {
+				position: absolute;
+				bottom: 20px;
+				width: 100%;
+				text-align: center;
+				padding: 0;
+				margin: 0;
+			}
+
+			button {
+				color: rgb(255,255,255);
+				background: transparent;
+				border: 0px;
+				padding: 5px 10px;
+				cursor: pointer;
+			}
+			button:hover {
+				background-color: rgba(0,255,255,0.5);
+			}
+			button:active {
+				color: #000000;
+				background-color: rgba(0,255,255,1);
+			}
+      .label {
+				text-shadow: -1px 1px 1px rgb(0,0,0);
+				margin-left: 25px;
+				font-size: 20px;
+			}
+  </style>
+</head>
+<body>
+  <div id="text"></div>
+  <div id="lab-room"></div>
+  <div id="molecules"></div>
+  <div id="menu"></div>
+</body>
+</html>
